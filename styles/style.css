@@ -97,6 +97,9 @@ header{
 .view__links__button{
 
     display: flex;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    text-wrap: nowrap;
     justify-content: center;
     gap: 1rem;
     border: 2px solid var(--color-3);
@@ -160,5 +163,6 @@ header{
         .view__content{
             width: auto;
         }
+
 
     }
