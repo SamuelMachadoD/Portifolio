@@ -3,7 +3,7 @@
     justify-content: space-between;
     align-items: center;
     position: relative;
-    background-color: var(--color-black);
+    background-color: var(--color-1);
 }
 .logo{
     padding: 1.5em 1em;
@@ -32,9 +32,9 @@
     font-family: var(--font-h2);
     font-weight: 700;
     font-size: 25px;
-    color: var(--color-black);
+    color: var(--color-1);
     padding: 1em;
-    background-color: var(--color-white);
+    background-color: var(--color-2);
 }
 
 .menu_lista_link{
@@ -43,4 +43,5 @@
 
 .linha{
     margin: 0;
+    background-color: white;
 }

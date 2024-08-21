@@ -1,37 +1,32 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles/style.css">
-    <title>Sobre mim</title>
+    <title>Lista em Duas Colunas</title>
+    <style>
+        ul {
+            column-count: 2; /* Divide em duas colunas */
+            column-gap: 20px; /* Espaço entre as colunas */
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        li {
+            break-inside: avoid; /* Evita quebra de itens entre colunas */
+            padding: 10px;
+        }
+    </style>
 </head>
 <body>
-    <header>
-        <nav class="bar">
-            <a class="bar__link" href="index.html">Inicio</a>
-            <a class="bar__link" href="about.html">Sobre Mim</a>
-            <a class="bar__link" href="curriculum.html">Curriculo</a>
-        </nav>
-    </header>
-    <main class="view">
-        <img class="portrait" src="assets/eu.jpg" alt="Minha imagem">
-        <section class="view__content">
-            <h1 class="view__content__title">
-                Sobre mim
-            </h1>
-            <p class="view__content__text">
-                Olá! Sou Samuel Machado, desenvolvedor Full-Stack com exeperiencia de mercado na 
-                empresa WebJump por 1 ano. E estou atualmente empregado na empresa X. Faço trabalhos como Full-Stack como desenvolvedor
-                free-lancer.
-            </p>
-            <p class="view__content__text">
-                Adoro aviação, jogos e corujas
-            </p>
-        </section>
-    </main>
-    <footer>
-        <p> Desenvolvido por Samuel Machado D.</p>
-    </footer>
+    <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+        <li>Item 5</li>
+        <li>Item 6</li>
+    </ul>
 </body>
 </html>
