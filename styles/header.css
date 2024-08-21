@@ -1,0 +1,46 @@
+.cabeçalho{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    background-color: var(--color-black);
+}
+.logo{
+    padding: 1.5em 1em;
+    width: 20%;
+}
+
+.menu_input:checked ~ .menu_lista{
+    display: block;
+}
+.menu_input{
+    display: none;
+}
+
+.menu_lista{
+    display: none;
+    position: absolute;
+    top: 100%;
+    width: 100vw;
+}
+.menu_imagem{
+    padding: 0 1.5em;
+}
+
+.menu_lista_titulo,
+.menu_lista_item{
+    font-family: var(--font-h2);
+    font-weight: 700;
+    font-size: 25px;
+    color: var(--color-black);
+    padding: 1em;
+    background-color: var(--color-white);
+}
+
+.menu_lista_link{
+    text-decoration: none;
+}
+
+.linha{
+    margin: 0;
+}

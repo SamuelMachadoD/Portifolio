@@ -5,38 +5,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/style.css">
-    <title>Portifolio</title>
+    <link rel="stylesheet" href="./styles/reset.css">
+    <title>Portifolio - Samuel</title>
 </head>
 <body>
-    <header>
-        <nav class="bar">
-            <a class="bar__link" href="index.html">Inicio</a>
-            <a class="bar__link" href="about.html">Sobre Mim</a>
-            <a class="bar__link" href="curriculum.html">Curriculo</a>
-        </nav>
+    <header class="cabeçalho">
+        <img src="assets/Logo.svg" alt="Samuel Logo" class="logo"></a>
+        <input type="checkbox" id="menu" class="menu_input">
+        <label for="menu" class="menu_label">
+            <img src="assets/Menu.svg" alt="Imagem do menu" class="menu_imagem">
+        </label>
+        <ul class="menu_lista">
+            <li class="menu_lista_item">
+                <a href="index.html" class="menu_lista_link">Home</a>
+            </li>
+            <hr class="linha" />
+            <li class="menu_lista_item">
+                <a href="projects.html" class="menu_lista_link">Projects</a>
+            </li>
+            <hr class="linha" />
+            <li class="menu_lista_item">
+                <a href="about.html" class="menu_lista_link">About</a>
+            </li>
+            <hr class="linha" />
+            <li class="menu_lista_item">
+                <a href="#" class="menu_lista_link">Contact</a>
+            </li>
+        </ul>
     </header>
-    <main class="view">
-        <section class="view__content">
-            <h1 class="view__content__title">
-                Eleve seu negócio digital a <strong class="title-highlight">outro nivel</strong>, com aplicações completas 
-                <strong class="title-highlight">desde o Back ao Front</strong>!
-            </h1>
-            <p class="view__content__text">
-                Olá! Sou Samuel Machado, desenvolvedor Full-Stack com conhecimento em 
-                <strong>React, Java, Node.js, HTML & CSS, Mongo e varias outras tecnologias.</strong> 
-                Ajudo pequenas ideias a se tornarem grandes negocios virtuais. Vamos conversar?
-            </p>
-            <div class="view__links">
-                <h3 class="view__links__title">Acesse minhas redes:</h3>
-                <a class="view__links__button" href="https://www.linkedin.com/in/samuelmachadoduarte/">
-                    <img src="assets/linkedin.png">
-                    Linkedin</a>
-                <a class="view__links__button" href="https://github.com/SamuelMachadoD">
-                    <img src="assets/github.png">
-                    Github</a>
-            </div>
-        </section>
-    </main>
+    <section class="view__content">
+        <h1 class="view__content__title">
+            Samuel Machado Duarte
+        </h1>
+        <h2 class="view__content__subtitle">Web -Developer</h2>
+    </section>
+    <section class="about">
+        <h2 class="about-title">About me</h2>
+        <p class="about-text">about</p>
+    </section>
     <footer>
         <p> Desenvolvido por Samuel Machado D.</p>
     </footer>
