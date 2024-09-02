@@ -1,0 +1,18 @@
+.rodape{
+    background-color: black;
+}
+.footer-list{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2em;
+}
+
+.footer-list-item-link{
+    text-decoration: none;
+    color: white;
+    font-family: var(--font-p);
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: 1em;
+}

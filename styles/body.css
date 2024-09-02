@@ -56,3 +56,84 @@
     font-size: 16px;
 }
 
+.projects{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-list-item-link-img{
+    width: 95%;
+}
+.project-list-item{
+    width: 400px;
+    margin: auto;
+    position: relative;
+    color: white;
+    text-align: center;
+}
+.project-list-item-title{
+    position: absolute;
+    top: .9em;
+    left: .3em;
+    padding: .5em .5em;
+    background-color: rgba(0,0,0,1);
+    font-family: var(--font-p);
+    font-size: 32px;
+    font-weight: 500;
+    letter-spacing: .2rem;
+    color: white;
+}
+.project-list-item-title:visited{
+    color: white;
+}
+.project-list-item-text{
+    position: absolute;
+    top: 11%;
+    left: 3%;
+    text-align: left;
+    background-color: rgba(0,0,0,0);
+    margin-top: 1em;
+    padding: .5em 1em;
+    font-family: var(--font-p);
+    font-size: 24px;
+    font-weight: 300;
+    letter-spacing: .2rem;
+    line-height: 1.15em;
+    text-decoration: none;
+    color: white;
+}
+
+.project-list-item-text:visited{
+    color: white;
+}
+.project-list-item{
+    padding-top: 1em;
+}
+
+
+.container-buttons{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 3em 0;
+}
+
+.buttons{
+    font-family: var(--font-p);
+    font-size: 16px;
+    font-weight: 500;
+    padding: 1.5em 8.5em;
+    text-decoration: none;
+    background-color: #D9D9D9;
+    margin: .5em;
+    color: black;
+}
+.buttons:visited{
+    color: black;
+}
+.button-image{
+    padding-right: 1em;
+}

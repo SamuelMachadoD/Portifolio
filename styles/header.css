@@ -4,6 +4,7 @@
     align-items: center;
     position: relative;
     background-color: var(--color-1);
+    width: 100%;
 }
 .logo{
     padding: 1.5em 1em;
@@ -27,18 +28,18 @@
     padding: 0 1.5em;
 }
 
-.menu_lista_titulo,
 .menu_lista_item{
     font-family: var(--font-h2);
     font-weight: 700;
     font-size: 25px;
-    color: var(--color-1);
     padding: 1em;
     background-color: var(--color-2);
 }
 
 .menu_lista_link{
     text-decoration: none;
+    color: black;
+    text-decoration-color: black;
 }
 
 .linha{
