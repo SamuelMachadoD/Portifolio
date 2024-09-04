@@ -85,7 +85,7 @@
     padding: .5em .5em;
     background-color: rgba(0,0,0,1);
     font-family: var(--font-p);
-    font-size: 28px;
+    font-size: 27px;
     font-weight: 500;
     letter-spacing: .2rem;
     color: white;
@@ -135,9 +135,63 @@
     margin: .5em;
     color: black;
 }
+.buttons-submit{
+    font-family: var(--font-p);
+    font-size: 16px;
+    font-weight: 500;
+    padding: 1.5em 5em;
+    background-color: #D9D9D9;
+    margin: .5em;
+    color: black;
+    border: 0;
+}
 .buttons:visited{
     color: black;
 }
 .button-image{
     padding-right: 1em;
+}
+
+form{
+    width: 100%;
+    max-width: 350px;
+}
+
+div.input-single{
+    width: 100%;
+    margin: 30px;
+    position: relative;
+}
+
+div.input-single label{
+    font-size: 16px;
+    font-family: var(--font-p);
+    position: absolute;
+    left: 0;
+    bottom: 5px;
+    color: rgb(50, 50, 50);
+    cursor: text;
+    transition: 0.5s ease-in-out;
+}
+
+div.input-single .input{
+    width: 80%;
+    padding: 5px;
+    color: rgb(50, 50, 50);
+    border: 0;
+    border-bottom: 1px solid rgb(20, 20, 20);
+    outline: 0;
+    font-size: 16px;
+}
+
+div.input-single .input:focus,
+div.input-single .input:valid{
+    border-bottom: 2px solid cornflowerblue;
+}
+
+div.input-single .input:focus ~ label,
+div.input-single .input:valid ~ label{
+    transform: translateY(-24px);
+    font-size: 10px;
+    color: cornflowerblue;
 }

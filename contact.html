@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/style.css">
     <link rel="stylesheet" href="./styles/reset.css">
-    <title>About me - Samuel</title>
+    <title>Portifolio - Samuel</title>
 </head>
 <body>
     <header class="cabeçalho">
@@ -37,32 +37,34 @@
     </header>
     <section class="view__content">
         <h1 class="view__content__title">
-            About me
+            Contact me
         </h1>
-        <h2 class="view__content__subtitle">and my Journey</h2>
+        <h2 class="view__content__subtitle">Say hello to me</h2>
     </section>
+
     <section class="about">
-        <h2 class="about-title">My Journey</h2>
-        <p class="about-text">My journey into programming began at COTEMIG, where I discovered a passion for 
-            creating digital solutions. With a degree in Game Development and currently pursuing a degree in 
-            Software Engineering, I've solidified my knowledge and expanded my horizons.<br><br>
-            I have a year of experience with Java backend development, building solutions for a content management 
-            platform. Currently, I'm diving into the world of frontend, enhancing my skills in HTML, 
-            CSS, and JavaScript. <br> <br>
-            My goal is to become a full-stack developer, capable of building comprehensive and efficient web solutions.</p>
-
-        <h2 class="about-title">My hobbies and passions</h2>
-        <p class="about-text">A lifelong gamer, I found in programming the opportunity to create my own digital adventures. The combination of strategy, problem-solving, and competition inherent in gaming has shaped my thinking and provided me with a solid foundation for programming.<br><br>
-            I'm a detail-oriented and collaborative developer with an insatiable curiosity. I love diving into code, seeking to understand not only the 'how' but also the 'why'. This quest for knowledge allows me to find creative and efficient solutions to the challenges that arise in software development.
-            I believe that organization and empathy are essential for teamwork. By sharing my knowledge and learning from others, I contribute to a more collaborative and productive work environment.<br><br>
-            Programming offers me the opportunity to create a more innovative and technological future. With dedication and continuous effort, I hope to build solutions that make a difference and allow me to continue learning and growing as a professional.</p>
+        <h2 class="about-title">Contact me</h2>
+        <form action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="access_key" value="cfec9efa-dfe6-4e8f-92b4-5e12a22f073b">
+            <div class="input-single">
+                <input required type="text" name="name" id="name" class="input">
+                <label for="name">Name</label>
+            </div>
+            <div class="input-single">
+                <input required type="email" name="email" id="email" class="input">
+                <label for="email">Email</label>
+            </div>
+            <div class="input-single">
+                <input required type="text" name="message" id="message" size="100" class="input">
+                <label for="message">Message</label>
+            </div>
+            <div class="container-buttons">
+                <button type="submit" class="buttons-submit">Send message</button>
+            </div>
+        </form>
     </section>
 
-
-    <div class="container-buttons">
-        <a href="projects.html" class="buttons"><img src="/assets/Icon.svg" class="button-image"> All projects</a>
-        <a href="contact.html" class="buttons"><img src="/assets/Icon.svg" class="button-image">Contact me</a>
-    </div>
+    
 
     <footer class="rodape">
 
