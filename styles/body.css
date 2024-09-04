@@ -41,12 +41,17 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 }
+
+
 .skill-list-item{
     display: flex;
     break-inside: avoid;
     padding: 10px;
     flex-direction: row;
-    width: 100%;
+    width: 50%;
+}
+.skill-list-item-image{
+    width: 20px;
 }
 .skill-list-item-text{
     padding: 0 .5em;
@@ -64,11 +69,11 @@
 }
 
 .project-list-item-link-img{
-    width: 95%;
+    width: 80%;
+    filter:brightness(90%)
 }
 .project-list-item{
-    width: 400px;
-    margin: auto;
+    width: 370px;
     position: relative;
     color: white;
     text-align: center;
@@ -76,11 +81,11 @@
 .project-list-item-title{
     position: absolute;
     top: .9em;
-    left: .3em;
+    left: 1.5em;
     padding: .5em .5em;
     background-color: rgba(0,0,0,1);
     font-family: var(--font-p);
-    font-size: 32px;
+    font-size: 28px;
     font-weight: 500;
     letter-spacing: .2rem;
     color: white;
@@ -91,13 +96,12 @@
 .project-list-item-text{
     position: absolute;
     top: 11%;
-    left: 3%;
+    left: 4%;
     text-align: left;
     background-color: rgba(0,0,0,0);
-    margin-top: 1em;
-    padding: .5em 1em;
+    padding: 2em;
     font-family: var(--font-p);
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 300;
     letter-spacing: .2rem;
     line-height: 1.15em;
@@ -125,7 +129,7 @@
     font-family: var(--font-p);
     font-size: 16px;
     font-weight: 500;
-    padding: 1.5em 8.5em;
+    padding: 1.5em 5em;
     text-decoration: none;
     background-color: #D9D9D9;
     margin: .5em;

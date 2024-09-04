@@ -14,5 +14,21 @@
     font-size: 16px;
     text-transform: uppercase;
     font-weight: 500;
-    padding: 1em;
+    padding: 0.5em;
+}
+
+.footer-info{
+    display: flex;
+    justify-content: center;
+}
+.info-text{
+    color: white;
+    font-family: var(--font-p);
+    font-size: 16px;
+    font-weight: 200;
+    padding-top: 1em;
+}
+.info-img{
+    padding: 1.5em 1em;
+    width: 20%;
 }
