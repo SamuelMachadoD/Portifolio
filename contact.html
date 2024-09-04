@@ -42,21 +42,23 @@
         <h2 class="view__content__subtitle">Say hello to me</h2>
     </section>
 
-    <section class="about">
+    <section class="contact">
         <h2 class="about-title">Contact me</h2>
         <form action="https://api.web3forms.com/submit" method="POST">
             <input type="hidden" name="access_key" value="cfec9efa-dfe6-4e8f-92b4-5e12a22f073b">
-            <div class="input-single">
-                <input required type="text" name="name" id="name" class="input">
-                <label for="name">Name</label>
-            </div>
-            <div class="input-single">
-                <input required type="email" name="email" id="email" class="input">
-                <label for="email">Email</label>
-            </div>
-            <div class="input-single">
-                <input required type="text" name="message" id="message" size="100" class="input">
-                <label for="message">Message</label>
+            <div class="contact-inputs">
+                <div class="input-single">
+                    <input required type="text" name="name" id="name" class="input">
+                    <label for="name">Name</label>
+                </div>
+                <div class="input-single">
+                    <input required type="email" name="email" id="email" class="input">
+                    <label for="email">Email</label>
+                </div>
+                <div class="input-single">
+                    <input required type="text" name="message" id="message" size="100" class="input">
+                    <label for="message">Message</label>
+                </div>
             </div>
             <div class="container-buttons">
                 <button type="submit" class="buttons-submit">Send message</button>

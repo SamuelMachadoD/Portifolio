@@ -163,6 +163,12 @@ div.input-single{
     position: relative;
 }
 
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 div.input-single label{
     font-size: 16px;
     font-family: var(--font-p);
@@ -194,4 +200,121 @@ div.input-single .input:valid ~ label{
     transform: translateY(-24px);
     font-size: 10px;
     color: cornflowerblue;
+}
+
+@media screen and (min-width: 1400px) {
+    .about{
+        padding: 2em 30em;
+    }
+    .about-title{
+        font-size: 35px;
+    }
+    .about-text{
+        font-size: 20px;
+        line-height: 1.3em;
+    }
+    .skill-list{
+        display: flex;
+        justify-content: space-between;
+    }
+    .skill-list-item-text{
+        font-size: 20px;
+    }
+    .skill-list-item-image{
+        width: 25%;
+    }
+    .project-list{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 0 20em;
+    }
+    .container-buttons{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .buttons{
+        margin: 0em 3em;
+    }
+    .rodape{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 2em;
+    }
+    .info-div-text{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .info-text{
+        padding: 1em;
+        padding-left: em;
+    }
+    .footer-list-item{
+        padding-left: 2em;
+    }
+    .info-img{
+        justify-content: center;
+    }
+
+    .contact{
+        display: flex;
+        justify-content: left;
+        flex-direction: column;
+        align-items: normal;
+        padding-left: 5em;
+    }
+
+    .contact-inputs{
+        display: grid;
+        grid-template-columns: repeat(auto-fill,minmax(500px, 2fr));
+        width: 100vh;
+    }
+    .input-single{
+        width: 100%;
+    }
+    #message{
+        width: 180%;
+    }
+
+    div.input-single .input:focus ~ label,
+    div.input-single .input:valid ~ label{
+    transform: translateY(-32px);
+    font-size: 20px;
+    color: cornflowerblue;
+    }
+
+    div.input-single label{
+        font-size: 25px;
+        font-family: var(--font-p);
+        position: absolute;
+        left: 0;
+        bottom: 5px;
+        color: rgb(50, 50, 50);
+        cursor: text;
+        transition: 0.5s ease-in-out;
+    }
+    
+    div.input-single .input{
+        width: 80%;
+        padding: 5px;
+        color: rgb(50, 50, 50);
+        border: 0;
+        border-bottom: 4px solid rgb(20, 20, 20);
+        outline: 0;
+        font-size: 25px;
+    }
+    
+    div.input-single .input:focus,
+    div.input-single .input:valid{
+        border-bottom: 4px solid cornflowerblue;
+    }
+
+    .buttons-submit{
+        font-size: 18px;
+    }
 }
