@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<!-- Portifolio -->
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
@@ -9,128 +8,24 @@
     <title>Portifolio - Samuel</title>
 </head>
 <body>
-    <header class="cabeçalho">
-        <!-- Logo -->
-        <a href="index.html"><img src="assets/Logo.svg" alt="Samuel Logo" class="logo"></a>
-        <!-- Menu -->
-        <input type="checkbox" id="menu" class="menu_input">
-        <label for="menu" class="menu_label">
-            <img src="assets/Menu.svg" alt="Imagem do menu" class="menu_imagem">
-        </label>
-        <ul id="minha-lista"  class="menu_lista">
-            <li class="menu_lista_item">
-                <a href="index.html" class="menu_lista_link">Home</a>
-            </li>
-            <hr class="linha" />
-            <li class="menu_lista_item">
-                <a href="projects.html" class="menu_lista_link">Projects</a>
-            </li>
-            <hr class="linha" />
-            <li class="menu_lista_item">
-                <a href="about.html" class="menu_lista_link">About</a>
-            </li>
-            <hr class="linha" />
-            <li class="menu_lista_item">
-                <a href="contact.html" class="menu_lista_link">Contact</a>
-            </li>
-        </ul>
-    </header>
-    <section class="view__content">
-        <h1 class="view__content__title">
-            Samuel Machado Duarte
-        </h1>
-        <h2 class="view__content__subtitle">Web -Developer</h2>
-    </section>
-    <section class="about">
-        <h2 class="about-title">About me</h2>
-        <p class="about-text">I'm a Junior Back-end Developer with experience 
-            in Java, Spring, and AEM. I'm currently expanding my skill set to 
-            become a Full-Stack Developer by exploring technologies such as 
-            React, JavaScript, Node.js, HTML, and CSS. My goal is to actively 
-            contribute to challenging projects while continuously enhancing my s
-            kills and knowledge.</p>
-    </section>
-
-    <section class="about">
-        <h2 class="about-title">My Skills</h2>
-        <ul class="skill-list">
-            <li class="skill-list-item">
-                <img src="assets/Html5.svg" class="skill-list-item-image"><p class="skill-list-item-text">HTML</p>
-            </li>
-            <li class="skill-list-item">
-                <img src="assets/CSS.svg" class="skill-list-item-image"><p class="skill-list-item-text">CSS</p>
-            </li>
-            <li class="skill-list-item">
-                <img src="assets/Javascript.svg" class="skill-list-item-image"><p class="skill-list-item-text">JavaScript</p>
-            </li>
-            <li class="skill-list-item">
-                <img src="assets/java-svgrepo-com.svg" class="skill-list-item-image"><p class="skill-list-item-text">Java</p>
-            </li>
-            <li class="skill-list-item">
-                <img src="assets/Git.svg" class="skill-list-item-image"><p class="skill-list-item-text">GIT</p>
-            </li>
-            <li class="skill-list-item">
-                <img src="assets/Visual Studio Code.svg" class="skill-list-item-image"><p class="skill-list-item-text">VSCode</p>
-            </li>
-        </ul>
-    </section>
-
-    <section  class="projects">
-        <ul class="project-list">
-            <li class="project-list-item">
-                <a href="index.html" class="project-list-item-link">
-                    <img src="assets/portifolio img.svg" class="project-list-item-link-img">
-                    <div class="project-list-item-title">This Portifolio</div>
-                    <div class="project-list-item-text">My hello world! Using only CSS & HTML. For now!</div>
-                </a>
-            </li>
-            <li class="project-list-item">
-                <a href="https://samuelmachadod.github.io/alura_books/" class="project-list-item-link">
-                    <img src="assets/Alura img.png" class="project-list-item-link-img">
-                    <div class="project-list-item-title">Alura Books</div>
-                    <div class="project-list-item-text">CSS & HTML static page</div>
-                </a>
-            </li>
-            <li class="project-list-item">
-                <a href="https://samuelmachadod.github.io/Javascript-Teclado-Sonoro/" class="project-list-item-link">
-                    <img src="assets/teclado.png" class="project-list-item-link-img">
-                    <div class="project-list-item-title">Sound Board</div>
-                    <div class="project-list-item-text">This is my firt javascript project.</div>
-                </a>
-            </li>
-        </ul>
-    </section>
-
-    <div class="container-buttons">
-        <a href="projects.html" class="buttons"><img src="assets/Icon.svg" class="button-image"> All projects</a>
-        <a href="contact.html" class="buttons"><img src="assets/Icon.svg" class="button-image">Contact me</a>
-    </div>
-
-    <footer class="rodape">
-
-        <ul class="footer-list">
-            <li class="footer-list-item">
-                <a href="projects.html" class="footer-list-item-link">Projects</a>
-            </li>
-            <li class="footer-list-item">
-                <a href="about.html" class="footer-list-item-link">About me</a>
-            </li>
-            <li class="footer-list-item">
-                <a href="contact.html" class="footer-list-item-link">Contact</a>
-            </li>
-        </ul>
-
-        <section class="footer-info">
-            <img src="assets/Logo.svg" class="info-img">
-
-            <div class="info-div-text">
-                <p class="info-text">+55 (31) 9 9382-3965</p>
-                <p class="info-text">samuelmachado41@gmail.com</p>
-            </div>
-            
+    <header>
+        <section class="header-container">
+            <p class="logo">SM</p>
+            <img class="icon_menu" src="./assets/menu.png" alt="icone do whatsapp">
         </section>
-        
-    </footer>
-
+    </header>
+    <main>
+        <section class="apresentacao">
+            <div>
+                <h1>Olá, sou o <strong>Samuel M. D.</strong></h1>
+                <p class="sub-title">Desenvolvedor Web</p>
+                <a>Vamos conversar <img src="./assets/north_east.png" alt=""/></a>
+                <div class="contact">
+                    <p class="contact-info"><span class="dot"><img class="icon" src="./assets/whatsapp.png" alt="icone do whatsapp"></span>+55 (31) 9 9382-3965</p>
+                    <p class="contact-info"><span class="dot"><img class="icon" src="./assets/mail.png" alt="icone do whatsapp"></span>samuelmachado41@gmail.com</p>
+                </div>
+            </div>
+        </section>        
+    </main>
 </body>
 </html>

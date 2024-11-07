@@ -1,27 +1,128 @@
 /* Style Sheet Portifolio */
 
 /* Imports */
-@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=League+Gothic&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-@import url("header.css");
-@import url("body.css");
-@import url("footer.css");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
 
-/* Pallete and Font config */
-:root{
+:root {
+  --color-1: #141313;
+  --color-2: #ffffff;
+  --color-2b: #c1c1c1;
 
-    --color-1: #000000;
-    --color-2: #FFFFFF;
-    --color-2b: #D9D9D9;
-
-    --font-h1: "League Gothic";
-    --font-h2: "League Spartan";
-    --font-p: "Roboto";
-
+  --font-Logo: "IBM Plex Serif";
+  --font-Menu: "IBM Plex Sans";
+  --font-p: "Roboto";
 }
 
+body {
+  min-height: 100vh;
+  max-width: 100vh;
+  display: flex;
+  justify-content: center;
+}
 
-body{
-    min-height: 100vh;
+header {
+  position: fixed;
+  background-color: var(--color-1);
+  height: 4em;
+  width: 100%;
+}
+
+.header-container{  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 10px 1em;
+}
+
+header .logo {
+  font-family: var(--font-Logo);
+  color: var(--color-2);
+  font-size: 40px;
+
+}
+.dot {
+  background: var(--color-2);
+  border-radius: 50%;
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  border: 1px solid var(--color-1);
+  text-align: center;
+  align-content: center;
+}
+.icon_menu {
+  width: 45px;
+  height: 45px;
+  filter: invert(100%);
+}
+.icon {
+  width: 25px;
+  height: 25px;
+  align-items: center;
+  justify-content: center;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+main .apresentacao {
+  font-family: var(--font-Menu);
+}
+
+.apresentacao div .contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: left;
+}
+.apresentacao h1 {
+  color: var(--color-1);
+  text-align: center;
+  font-size: 40px;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+.apresentacao h1 strong {
+  font-weight: bold;
+  font-size: 43px;
+}
+
+.apresentacao .sub-title {
+  text-align: center;
+  color: var(--color-1);
+  font-size: 32px;
+  font-style: italic;
+  font-weight: 500;
+  margin-bottom: 2em;
+  padding-left: 6px;
+}
+.apresentacao a {
+
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  text-decoration: none;
+  background-color: var(--color-1);
+  color: var(--color-2);
+  height: 56px;
+  width: 258px;
+
+  margin-bottom: 2em;
+  font-weight: 500;
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  gap: 8px;
+}
+.contact-info{
+  display: flex;
+  align-items: center;
+}
+.contact-info span{
+  margin-right: 0.5em;
 }
