@@ -1,6 +1,3 @@
-/* Style Sheet Portifolio */
-
-/* Imports */
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
 
 :root {
@@ -27,17 +24,25 @@ header {
   width: 100%;
 }
 
-.header-container{  display: flex;
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.header-container {
+  display: flex;
   flex-direction: row;
   justify-content: space-between;
   margin: 10px 1em;
 }
 
-header .logo {
+.header-container .logo {
   font-family: var(--font-Logo);
   color: var(--color-2);
   font-size: 40px;
-
 }
 .dot {
   background: var(--color-2);
@@ -49,11 +54,13 @@ header .logo {
   text-align: center;
   align-content: center;
 }
+
 .icon_menu {
   width: 45px;
   height: 45px;
   filter: invert(100%);
 }
+
 .icon {
   width: 25px;
   height: 25px;
@@ -61,15 +68,9 @@ header .logo {
   justify-content: center;
 }
 
-main {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-main .apresentacao {
+.apresentacao {
   font-family: var(--font-Menu);
+  margin: 1em;
 }
 
 .apresentacao div .contact {
@@ -84,6 +85,8 @@ main .apresentacao {
   font-size: 40px;
   font-weight: 400;
   margin-bottom: 15px;
+  padding-top: 0.3em;
+  margin-inline: 1em;
 }
 .apresentacao h1 strong {
   font-weight: bold;
@@ -96,11 +99,11 @@ main .apresentacao {
   font-size: 32px;
   font-style: italic;
   font-weight: 500;
-  margin-bottom: 2em;
+  margin-bottom: 3em;
   padding-left: 6px;
 }
-.apresentacao a {
 
+.apresentacao a {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
@@ -109,20 +112,72 @@ main .apresentacao {
   color: var(--color-2);
   height: 56px;
   width: 258px;
-
   margin-bottom: 2em;
   font-weight: 500;
-
   display: flex;
   align-items: center;
   text-align: center;
   justify-content: center;
   gap: 8px;
 }
-.contact-info{
+
+.contact-info {
   display: flex;
   align-items: center;
 }
-.contact-info span{
+
+.contact-info span {
   margin-right: 0.5em;
+}
+
+.vector-container {
+  position: relative;
+}
+
+.circle {
+  background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
+  border-radius: 50%;
+  display: inline-block;
+  position: absolute;
+  height: 18em;
+  width: 18em;
+  z-index: -1;
+  top: -4.1em;
+  left: 0;
+  right: 0;
+  margin-inline: auto;
+}
+.cube {
+  background-color: var(--color-2);
+  display: inline-block;
+  position: absolute;
+  height: 10em;
+  width: 20em;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin-inline: auto;
+}
+
+.arrow {
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 3px;
+  margin-top: 0.35em;
+  margin-right: 0.3em;
+  width: 0.2em;
+  height: 0.2em;
+}
+
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+.mini-cube {
+  background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
+  height: 1.5em;
+  width: 1.5em;
 }
