@@ -1,0 +1,27 @@
+@import url("./Base/reset.css");
+@import url("./Base/variables.css");
+@import url("./Base/elements.css");
+
+@import url("./Layout/grid.css");
+@import url("./Layout/apresentacao.css");
+@import url("./Layout/header.css");
+
+@import url("./Module/Shapes.css");
+@import url("./Module/logo.css");
+@import url("./Module/icons.css");
+@import url("./Module/texts.css");
+@import url("./Module/btn-talk.css");
+@import url("./Module/contact-info.css");
+
+@import url("./State/Texts/italic.css");
+@import url("./State/Texts/strong.css");
+
+
+
+
+
+
+
+
+
+

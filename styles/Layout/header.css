@@ -1,0 +1,18 @@
+.l_header-container {
+  display: grid;
+  background-color: var(--color-1);
+  grid-template-areas: "logo menu";  
+  grid-template-columns: auto auto;
+  grid-template-rows: 2em;
+  padding: 1em;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.l_header-container .c_logo{
+    grid-area: logo;
+}
+
+.l_header-container .c_icon_menu{
+    grid-area: menu;
+}
