@@ -1,0 +1,5 @@
+.c_logo {
+    font-family: var(--font-Logo);
+    color: var(--color-2);
+    font-size: var(--font-size-logo);
+  }
