@@ -1,0 +1,11 @@
+.l_hello{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-rows: 35% 50%;
+    width: 100vw;
+    height: 50vh;
+}
+.l_hello .l_paragrafo{
+    padding: 0em 1.5em;
+}

@@ -1,6 +1,5 @@
 .btn_talk{
     display: grid;
-    color: var(--color-2);
     background: var(--color-1);
     width: 100%;
     grid-template-columns: auto auto;

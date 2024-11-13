@@ -8,6 +8,8 @@
 @import url("./Layout/services.css");
 @import url("./Layout/l_service_card.css");
 @import url("./Layout/l_titulo.css");
+@import url("./Layout/l_hello.css");
+@import url("./Layout/l_paragrafo.css");
 
 @import url("./Module/shapes.css");
 @import url("./Module/logo.css");
@@ -15,10 +17,13 @@
 @import url("./Module/texts.css");
 @import url("./Module/btn-talk.css");
 @import url("./Module/c_service_card.css");
+@import url("./Module/c_paragrafo.css");
+@import url("./Module/c_background.css");
 
 @import url("./State/Texts/italic.css");
 @import url("./State/Texts/s_strong.css");
 @import url("./State/Texts/smaller.css");
+@import url("./State/s_invert.css");
 
 
 
