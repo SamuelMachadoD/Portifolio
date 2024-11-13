@@ -1,0 +1,7 @@
+.l_services{
+    display: grid;
+    justify-content: center;
+    gap: 2em;
+    text-align: left;
+    margin: 2em;
+}

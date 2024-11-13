@@ -4,3 +4,12 @@
 .c_h2{
     font-size: var(--font-size-h2);
 }
+.c_h3{
+    font-size: var(--font-size-h3);
+}
+.c_p{
+    font-size: var(--font-size-p);
+}
+.test{
+    
+}

@@ -15,8 +15,9 @@
     /*Fontes*/
     --font-size-logo: 40px;
     --font-size-h1: 50px;
-    --font-size-h2: 25px;
-    --font-size-p: 20px;
+    --font-size-h2: 28px;
+    --font-size-h3: 40px;
+    --font-size-p: 18px;
     --font-Logo: "IBM Plex Serif";
     --font-Base: "IBM Plex Sans";
 }

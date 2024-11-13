@@ -5,16 +5,20 @@
 @import url("./Layout/grid.css");
 @import url("./Layout/apresentacao.css");
 @import url("./Layout/header.css");
+@import url("./Layout/services.css");
+@import url("./Layout/l_service_card.css");
+@import url("./Layout/l_titulo.css");
 
-@import url("./Module/Shapes.css");
+@import url("./Module/shapes.css");
 @import url("./Module/logo.css");
 @import url("./Module/icons.css");
 @import url("./Module/texts.css");
 @import url("./Module/btn-talk.css");
-@import url("./Module/contact-info.css");
+@import url("./Module/c_service_card.css");
 
 @import url("./State/Texts/italic.css");
-@import url("./State/Texts/strong.css");
+@import url("./State/Texts/s_strong.css");
+@import url("./State/Texts/smaller.css");
 
 
 

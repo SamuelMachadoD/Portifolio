@@ -1,0 +1,8 @@
+.l_service_card{
+    border-radius: 10px;
+    display: grid;
+    gap: 2em;
+    padding: 1.8em;
+    box-shadow: 0.4em 0.4em black;
+    border: 0.1px solid;
+}

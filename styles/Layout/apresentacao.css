@@ -15,7 +15,7 @@
   padding: 1em;
 }
 
-.l_titulo{
+.l_apresentacao .l_titulo{
   grid-area: texto;
   display: flex;
   flex-direction: column;
@@ -25,7 +25,7 @@
   height: 70%;
 }
 
-.l_titulo .c_circle{
+.l_apresentacao .l_titulo .c_circle{
   grid-area: texto;
 }
 
@@ -40,7 +40,7 @@
   width: 100%;
 }
 
-.l_contact_info{
+.l_apresentacao .c_contact_info{
   display: flex;
   justify-content: center;
   align-items: center;
